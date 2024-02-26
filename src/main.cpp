@@ -27,11 +27,8 @@ int a1 = 315;
 
 // imposta i pixel di spostamento dell'ago per i passi larghi
 int iNeedlePixelLargeMove = 3;
-// il valore minimo di lettura che equivale a 0
-int minAnalogValue = 680;
-// il valore minimo di lettura che equivale a 9+60
-int maxAnalogValue = 4095;
 
+// Set the your own values (linear interpolation) between the analog data and the SMeter signal
 float ranlg[10] = {27.0,   215.0, 640.0, 1350.0, 2130.0, 2705.0, 3125.0, 3460.0, 3760.0, 4000.0};
 float rsign[10] = {0.0,     1.0,   2.0,    3.0,    5.0,    7.0,    9.0,   10.0,   12.0,   15.0};
 float alpha[10];
