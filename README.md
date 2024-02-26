@@ -10,6 +10,6 @@ The signal out from the analog internal CB SMeter end enter into first OPAmp (LM
 ![alt text](https://github.com/StarNiell/ESP32_SMeter/blob/main/Schematics_ESP32_SMeter.jpg?raw=true)
 
 ## Notes
-The analog signal are not linear! Into the scketch find the **ranlg[]** and **rsign[]** array variables to set the relative values (Linear interpolation).
+The analog signal are not linear! Find the **ranlg[]** and **rsign[]** array variables and set the relative values (Linear interpolation).
 
 ![alt text](https://github.com/StarNiell/ESP32_SMeter/blob/main/Skecth_Notes.png?raw=true)
