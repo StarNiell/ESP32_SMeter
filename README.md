@@ -7,7 +7,7 @@ This project help you to build an LCD True Color SMeter for your CB (Midland, Ga
 ## Schematics
 The signal out from the analog internal CB SMeter end enter into first OPAmp (LM358 dual OPAMP) as buffer. The signal out from first OPAmp end enter into second OPAmp as Gain (use VR1 to adjust meausrement). From the second OPAmp the signal pass throught a voltage limitators (R2 and DZ1 3.3v) and it enter into GPIO35 of ESP32-2432S028.
 
-![alt text](https://github.com/[StarNiell]/[ESP32_SMeter]/blob/[main]/Schematics_ESP32_SMeter.jpg?raw=true)
+![alt text](https://github.com/StarNiell/ESP32_SMeter/blob/main/Schematics_ESP32_SMeter.jpg?raw=true)
 
 ## Notes
 The analog signal are not linear! Into the scketch find the **ranlg[]** and **rsign[]** array variables to set the relative values (Linear interpolation).
