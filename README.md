@@ -11,8 +11,8 @@ The signal out from the analog internal CB SMeter end enter into first OPAmp (LM
 
 ## Notes
 Use the VR1 (1M Trimmer) to adjust the output at about 3.2V - 3.3V whene the signal is set to 9+60: 
--The trick is to use another CB - one next to the other - on the same channel and press the push to talk.
+- The trick is to use another CB - one next to the other - on the same channel and press the push to talk.
 The analog signal are not linear! Find the **ranlg[]** and **rsign[]** array variables and set the relative values (Linear interpolation):
--the trick is to read the analog data (via Serial.println()) at varoùious level of the signal and annotate the Analog Data in the ranlg[] array and the signal in rsign[] array.
+- the trick is to read the analog data (via Serial.println()) at varoùious level of the signal and annotate the Analog Data in the ranlg[] array and the signal in rsign[] array.
 
 ![alt text](https://github.com/StarNiell/ESP32_SMeter/blob/main/Skecth_Notes.png?raw=true)
